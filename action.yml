@@ -10,6 +10,10 @@ inputs:
     description: Base branch to create the temporary branch from
     required: false
 
+  push:
+    description: Specify if the temporary branch should be pushed to origin or not
+    required: false
+
 runs:
   using: docker
   image: Dockerfile
