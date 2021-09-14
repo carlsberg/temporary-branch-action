@@ -2,7 +2,7 @@
 
 BASE_BRANCH=$INPUT_BASE
 TEMP_BRANCH="temp-$RANDOM"
-SHOULD_PUSH=$INPUT_SHOULD_PUSH
+SHOULD_PUSH=$INPUT_PUSH
 
 if [ ! -z "$BASE_BRANCH" ]; then
   echo "Creating temporary branch from $BASE_BRANCH"

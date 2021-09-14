@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-SHOULD_PUSH=$INPUT_SHOULD_PUSH
+SHOULD_PUSH=$INPUT_PUSH
 
 git checkout $STATE_BASE_BRANCH
 
