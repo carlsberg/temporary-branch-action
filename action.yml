@@ -13,5 +13,5 @@ inputs:
 runs:
   using: docker
   image: Dockerfile
-  entrypoint: ./entrypoint.sh
-  post-entrypoint: ./cleanup.sh
+  entrypoint: entrypoint.sh
+  post-entrypoint: cleanup.sh
