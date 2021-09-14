@@ -15,16 +15,16 @@ See the example in [.github/workflows/test.yml](.github/workflows/test.yml).
 
 ## Inputs
 
-| Name   | Description                                     |
-| ------ | ----------------------------------------------- |
-| `base` | Base branch to create the temporary branch from |
+| Name   | Description                                                       | Default |
+| ------ | ----------------------------------------------------------------- | ------- |
+| `base` | Base branch to create the temporary branch from                   | -       |
+| `push` | Specify if the temporary branch should be pushed to origin or not | `false` |
 
 ## Outputs
 
 | Name     | Description                  |
 | -------- | ---------------------------- |
 | `branch` | Name of the temporary branch |
-
 
 ## Contributing
 
