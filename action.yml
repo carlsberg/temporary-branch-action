@@ -1,0 +1,17 @@
+name: Temporary Branch
+description: Creates a temporary branch and deletes it before the workflow finishes
+
+branding:
+  icon: git-branch
+  color: green
+
+inputs:
+  base:
+    description: Base branch to create the temporary branch from
+    required: false
+
+runs:
+  using: docker
+  image: Dockerfile
+  entrypoint: ./entrypoint.sh
+  post-entrypoint: ./cleanup.sh
