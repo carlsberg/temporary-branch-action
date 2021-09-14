@@ -8,7 +8,7 @@ echo "Deleting temporary branch"
 
 git branch -D $STATE_TEMP_BRANCH
 
-if [ -z "$SHOULD_PUSH" ]; then
+if [ ! -z "$SHOULD_PUSH" ]; then
   echo "Deleting temporary branch remotely"
 
   git push -d origin $TEMP_BRANCH

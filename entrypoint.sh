@@ -16,7 +16,7 @@ echo "Checking out to $TEMP_BRANCH"
 
 git checkout -b $TEMP_BRANCH
 
-if [ -z "$SHOULD_PUSH" ]; then
+if [ ! -z "$SHOULD_PUSH" ]; then
   echo "Pushing $TEMP_BRANCH to remote origin"
 
   git push -u origin $TEMP_BRANCH
