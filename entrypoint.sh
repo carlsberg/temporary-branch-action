@@ -20,7 +20,7 @@ if [ ! -z "$SHOULD_PUSH" ]; then
   echo "Pushing $TEMP_BRANCH to remote origin"
 
   git push -u origin $TEMP_BRANCH
-else
+fi
 
 echo "::set-output name=branch::$TEMP_BRANCH"
 

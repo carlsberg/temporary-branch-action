@@ -12,4 +12,4 @@ if [ ! -z "$SHOULD_PUSH" ]; then
   echo "Deleting temporary branch remotely"
 
   git push -d origin $TEMP_BRANCH
-else
+fi
