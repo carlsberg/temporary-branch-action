@@ -6,7 +6,7 @@
 
 ```yaml
 - name: Create Temporary Branch
-  uses: carlsberg/temporary-branch-action@1.1.2
+  uses: carlsberg/temporary-branch-action@1.1.3
 ```
 
 ## Example
